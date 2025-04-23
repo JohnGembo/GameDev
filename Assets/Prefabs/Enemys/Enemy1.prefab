@@ -106,7 +106,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 2987279661060204549}
   rb: {fileID: 3477728931238254596}
-  moveSpeed: 0
+  moveSpeed: 1.5
+  destroyEffect: {fileID: 6080598203145448349, guid: 66607ef6bf2cbca488996d3a43508fdc, type: 3}
 --- !u!50 &3477728931238254596
 Rigidbody2D:
   serializedVersion: 5
