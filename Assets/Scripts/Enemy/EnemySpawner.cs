@@ -13,11 +13,13 @@ public class EnemySpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        spawnTimer += Time.deltaTime;
-        if(spawnTimer >= spawnInterval)
-        {
-            spawnTimer = 0;
-            SpawnEnemy(); 
+        if(PlayerController.Instance.gameObject.activeSelf == true){
+            spawnTimer += Time.deltaTime;
+            if(spawnTimer >= spawnInterval)
+            {
+                spawnTimer = 0;
+                SpawnEnemy(); 
+            }
         }
     }
 

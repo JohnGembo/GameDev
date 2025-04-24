@@ -11,29 +11,34 @@ public class Enemy1 : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        //face the player
-        if(PlayerController.Instance.transform.position.x > transform.position.x)
-        {
-            spriteRenderer.flipX = true;
+        if(PlayerController.Instance.gameObject.activeSelf == true){
+            //face the player
+            if(PlayerController.Instance.transform.position.x > transform.position.x)
+            {
+                spriteRenderer.flipX = true;
+            }
+            else
+            {
+                spriteRenderer.flipX = false;
+            }
+            // move towards the player
+            moveSpeed = 1.0f;
+
+            direction = (PlayerController.Instance.transform.position - transform.position).normalized;
+
+            rb.linearVelocity= new Vector2 (direction.x * moveSpeed, direction.y * moveSpeed);
+        }else{
+            rb.linearVelocity = Vector2.zero;
+            
         }
-        else
-        {
-            spriteRenderer.flipX = false;
-        }
-        // move towards the player
-        moveSpeed = 1.0f;
-
-        direction = (PlayerController.Instance.transform.position - transform.position).normalized;
-
-        rb.linearVelocity= new Vector2 (direction.x * moveSpeed, direction.y * moveSpeed);
-
 
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
-        {
+        {   
+            PlayerController.Instance.TakeDamage(1);
             Destroy(gameObject);
             Instantiate(destroyEffect, transform.position, transform.rotation);
         } 
