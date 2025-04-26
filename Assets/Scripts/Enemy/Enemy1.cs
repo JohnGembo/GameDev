@@ -5,8 +5,11 @@ public class Enemy1 : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Rigidbody2D rb;
     private Vector3 direction;
+
     [SerializeField] private float moveSpeed;
     [SerializeField] private GameObject destroyEffect;
+    [SerializeField] private float damage;
+    [SerializeField] private float health;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -38,11 +41,16 @@ public class Enemy1 : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {   
-            PlayerController.Instance.TakeDamage(1);
-            Destroy(gameObject);
-            Instantiate(destroyEffect, transform.position, transform.rotation);
+            PlayerController.Instance.TakeDamage(damage);
         } 
     }
 
+    public void TakeDamage(float damage){
+        health -= damage;
+        if (health <= 0){
+            Destroy(gameObject);
+            Instantiate(destroyEffect, transform.position, transform.rotation);
 
+        }
+    }
 }

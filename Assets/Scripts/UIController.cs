@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class UIController : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class UIController : MonoBehaviour
     [SerializeField] private TMP_Text healthText;
     public GameObject gameOverPanel;
     public GameObject pausePanel;
+    [SerializeField] public TMP_Text timerText;
     
     void Awake()
     {
@@ -25,6 +27,13 @@ public class UIController : MonoBehaviour
         playerHealthSlider.maxValue= PlayerController.Instance.playerMaxhealth;
         playerHealthSlider.value= PlayerController.Instance.playerHealth;
         healthText.text = playerHealthSlider.value + "/ " + playerHealthSlider.maxValue;
+    }
+
+    public void UpdateTimer(float timer){
+        float min = Mathf.FloorToInt(timer/60f);
+        float sec = Mathf.FloorToInt(timer % 60f);
+
+        timerText.text = min + ":" + sec.ToString("00");
     }
 
 
