@@ -1,7 +1,10 @@
+using TMPro;
 using UnityEngine;
 
 public class DamageNumber : MonoBehaviour
 {
+    [SerializeField] private TMP_Text damageText;
+
 
     void Start()
     {
@@ -13,4 +16,10 @@ public class DamageNumber : MonoBehaviour
     {
         
     }
+
+    public void SetValue(int value){
+        damageText.text = value.ToString();
+    }
+
 }
+

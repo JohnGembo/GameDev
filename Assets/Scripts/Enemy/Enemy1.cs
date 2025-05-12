@@ -8,7 +8,8 @@ public class Enemy1 : MonoBehaviour
 
     [SerializeField] private float moveSpeed;
     [SerializeField] private GameObject destroyEffect;
-    [SerializeField] private float damageE;
+    //[SerializeField] private float damagePtoE;
+    [SerializeField] private float damageEtoP;
     [SerializeField] private float health;
 
     // Update is called once per frame
@@ -37,17 +38,19 @@ public class Enemy1 : MonoBehaviour
 
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {   
-            PlayerController.Instance.TakeDamage(damageE);
+            PlayerController.Instance.TakeDamage(damageEtoP);
+            
         } 
     }
 
-    public void TakeDamage(float damageE){
-        health -= damageE;
-        DamageNumberController.Instance.CreateNumber(1,transform.position);
+
+    public void TakeDamage(float damage){
+        health -= damage;
+        //DamageNumberController.Instance.CreateNumber(1,transform.position);
 
         if (health <= 0){
             Destroy(gameObject);

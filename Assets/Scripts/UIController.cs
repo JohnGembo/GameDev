@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+    
 
 public class UIController : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class UIController : MonoBehaviour
     }
 
     public void UpdateHealthSlider(){
-        playerHealthSlider.maxValue= PlayerController.Instance.playerMaxhealth;
+        playerHealthSlider.maxValue= PlayerController.Instance.playerMaxHealth;
         playerHealthSlider.value= PlayerController.Instance.playerHealth;
         healthText.text = playerHealthSlider.value + "/ " + playerHealthSlider.maxValue;
     }
