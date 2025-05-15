@@ -7,9 +7,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator animator;
     [SerializeField] private float moveSpeed;
+
     public Vector3 playerMoveDirection;
     public float playerMaxHealth;
     public float playerHealth;
+
+    
+    public int experiencePoints;
+
 
     private bool isImmune;
     [SerializeField] private float immunityDuration;
@@ -22,12 +27,14 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(this);
         }
-        else{
+        else
+        {
             Instance = this;
         }
     }
 
-    void Start(){
+    void Start()
+    {
         playerHealth = playerMaxHealth;
         UIController.Instance.UpdateHealthSlider();
         immunityDuration = 1;
@@ -44,7 +51,7 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("moveX", inputX);
         animator.SetFloat("moveY", inputY);
 
-        if(playerMoveDirection== Vector3.zero)
+        if (playerMoveDirection == Vector3.zero)
         {
             animator.SetBool("moving", false);
         }
@@ -53,38 +60,56 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("moving", true);
         }
 
-        if(immunityTimer > 0){
+        if (immunityTimer > 0)
+        {
             immunityTimer -= Time.deltaTime;
-        } else{
+        }
+        else
+        {
             isImmune = false;
         }
 
 
     }
 
-    void FixedUpdate(){
-        rb.linearVelocity = new Vector3(playerMoveDirection.x * moveSpeed, playerMoveDirection.y * moveSpeed);    
+    void FixedUpdate()
+    {
+        rb.linearVelocity = new Vector3(playerMoveDirection.x * moveSpeed, playerMoveDirection.y * moveSpeed);
     }
 
 
 
-    public void TakeDamage(float damagePlayer){
-        
-        if(!isImmune){
-            isImmune= true;
+    public void TakeDamage(float damagePlayer)
+    {
+
+        if (!isImmune)
+        {
+            isImmune = true;
             immunityTimer = immunityDuration;
 
-            playerHealth-= damagePlayer;
+            playerHealth -= damagePlayer;
             UIController.Instance.UpdateHealthSlider();
-            
 
-            if(playerHealth <= 0){
+
+            if (playerHealth <= 0)
+            {
                 gameObject.SetActive(false);
                 GameManager.Instance.GameOver();
             }
         }
-        
 
+
+    }
+    
+    public void GetExperience(int experienceToGet)
+    {
+        experiencePoints += experienceToGet;
+       /* UIController.Instance.UpdateExperienceSlider();
+        if (experiencePoints >= 100)
+        {
+            LevelUp();
+        }
+        */
     }
 
 
