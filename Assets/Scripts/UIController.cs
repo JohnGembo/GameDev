@@ -9,6 +9,8 @@ public class UIController : MonoBehaviour
     public static UIController Instance;
     [SerializeField] private Slider playerHealthSlider;
     [SerializeField] private TMP_Text healthText;
+    [SerializeField] private Slider playerExpSlider;
+    [SerializeField] private TMP_Text ExpText;
     public GameObject gameOverPanel;
     public GameObject pausePanel;
     [SerializeField] public TMP_Text timerText;
@@ -29,9 +31,17 @@ public class UIController : MonoBehaviour
         playerHealthSlider.value= PlayerController.Instance.playerHealth;
         healthText.text = playerHealthSlider.value + "/ " + playerHealthSlider.maxValue;
     }
+    
+    public void UpdateExpSlider(){
+        playerExpSlider.maxValue= PlayerController.Instance.playerLevels[PlayerController.Instance.currentLevel-1];
+        playerExpSlider.value= PlayerController.Instance.experiencePoints;
+        ExpText.text = playerExpSlider.value + "/ " + playerExpSlider.maxValue;
+    }
 
-    public void UpdateTimer(float timer){
-        float min = Mathf.FloorToInt(timer/60f);
+
+    public void UpdateTimer(float timer)
+    {
+        float min = Mathf.FloorToInt(timer / 60f);
         float sec = Mathf.FloorToInt(timer % 60f);
 
         timerText.text = min + ":" + sec.ToString("00");

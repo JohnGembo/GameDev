@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     public float playerMaxHealth;
     public float playerHealth;
 
-    
+
     public int experiencePoints;
     public int currentLevel;
     public int maxLevel;
@@ -40,9 +40,15 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        for(int i=playerLevels.Count; i<maxLevel; i++)
+        {
+            playerLevels.Add(Mathf.CeilToInt(playerLevels[playerLevels.Count - 1] *1.1f+15));
+        }
         playerHealth = playerMaxHealth;
         UIController.Instance.UpdateHealthSlider();
+        UIController.Instance.UpdateExpSlider();
         immunityDuration = 1;
+
     }
 
 
@@ -105,16 +111,27 @@ public class PlayerController : MonoBehaviour
 
 
     }
-    
+
     public void GetExperience(int experienceToGet)
     {
         experiencePoints += experienceToGet;
-       /* UIController.Instance.UpdateExperienceSlider();
-        if (experiencePoints >= 100)
-        {
-            LevelUp();
-        }
-        */
+
+        UIController.Instance.UpdateExpSlider();
+        
+
+           if (experiencePoints >= playerLevels[currentLevel-1])
+           {
+               LevelUp();
+           }
+           
+    }
+
+    public void LevelUp()
+    {
+            experiencePoints -= playerLevels[currentLevel - 1];
+            currentLevel++;
+            UIController.Instance.UpdateExpSlider();
+        
     }
 
 
