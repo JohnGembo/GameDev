@@ -17,6 +17,11 @@ public class Enemy1 : MonoBehaviour
     [SerializeField] private float damageEtoP;
     [SerializeField] private float health;
 
+
+    
+
+
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -45,7 +50,7 @@ public class Enemy1 : MonoBehaviour
             }
 
             // move towards the player
-            moveSpeed = 1.0f;
+            
 
             direction = (PlayerController.Instance.transform.position - transform.position).normalized;
 

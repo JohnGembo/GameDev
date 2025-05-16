@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class PlayerController : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class PlayerController : MonoBehaviour
 
     
     public int experiencePoints;
+    public int currentLevel;
+    public int maxLevel;
+    public List<int> playerLevels;
+
 
 
     private bool isImmune;

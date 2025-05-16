@@ -12968,7 +12968,8 @@ MonoBehaviour:
   cooldown: 5
   duration: 3
   weaponDamage: 1
-  weaponRange: 0.7
+  weaponRange: 0.9
+  weaponWaveSpeed: 0.3
 --- !u!1 &1425117220
 GameObject:
   m_ObjectHideFlags: 0
@@ -13144,6 +13145,10 @@ MonoBehaviour:
   playerMoveDirection: {x: 0, y: 0, z: 0}
   playerMaxHealth: 5
   playerHealth: 0
+  experiencePoints: 0
+  currentLevel: 0
+  maxLevel: 10
+  playerLevels: 
   immunityDuration: 1
   immunityTimer: 0
 --- !u!95 &1435439211
@@ -14688,7 +14693,7 @@ RectTransform:
   m_GameObject: {fileID: 2087695764}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.46378, y: 0.46378, z: 0.46378}
+  m_LocalScale: {x: 1.242652, y: 1.242652, z: 1.242652}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1315868452}
@@ -14698,7 +14703,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 208.5, y: -39.3}
+  m_AnchoredPosition: {x: 300, y: -110}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2109600352
@@ -14827,14 +14832,14 @@ RectTransform:
   m_GameObject: {fileID: 2109600352}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.54038, y: 0.54038, z: 0.54038}
+  m_LocalScale: {x: 1.0705467, y: 1.0705467, z: 1.0705467}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2065944615}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.7, y: 108.2}
+  m_AnchoredPosition: {x: 2, y: 424}
   m_SizeDelta: {x: 589.26, y: 283.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1660057539 &9223372036854775807
