@@ -50,7 +50,8 @@ public class Enemy1 : MonoBehaviour
             }
 
             // move towards the player
-            
+
+
 
             direction = (PlayerController.Instance.transform.position - transform.position).normalized;
 
