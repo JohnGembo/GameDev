@@ -3,16 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Border
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Enemies
   - 
   - 
   - 
@@ -44,6 +45,9 @@ TagManager:
   - name: Background
     uniqueID: 1282749317
     locked: 0
+  - name: weapons
+    uniqueID: 885302523
+    locked: 0
   - name: Objects
     uniqueID: 2508001645
     locked: 0
@@ -51,7 +55,10 @@ TagManager:
     uniqueID: 3539734197
     locked: 0
   - name: Foreground
-    uniqueID: 3497213371
+    uniqueID: 2652655779
+    locked: 0
+  - name: UI
+    uniqueID: 4051342645
     locked: 0
   m_RenderingLayers:
   - Default
