@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 19dd261cd6023024f876fc9959595bfd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8898470008513095925
+    second: Seedot final_0
+  - first:
+      213: 3052305980491243707
+    second: Seedot final_1
+  - first:
+      213: -4893775055882689677
+    second: Seedot final_2
+  - first:
+      213: 2598178296059115874
+    second: Seedot final_3
+  - first:
+      213: -1658096962317970253
+    second: Seedot final_4
+  - first:
+      213: -4315497836725525858
+    second: Seedot final_5
+  - first:
+      213: 7857290045731478256
+    second: Seedot final_6
+  - first:
+      213: -8112719976514674945
+    second: Seedot final_7
+  - first:
+      213: 1977261161390327217
+    second: Seedot final_8
+  - first:
+      213: 3901672262363795804
+    second: Seedot final_9
+  - first:
+      213: -3295124824041304872
+    second: Seedot final_10
+  - first:
+      213: -7478377637966641185
+    second: Seedot final_11
+  - first:
+      213: 1722440460143559020
+    second: Seedot final_12
+  - first:
+      213: 6615104102758628151
+    second: Seedot final_13
+  - first:
+      213: 8023930674321507132
+    second: Seedot final_14
+  - first:
+      213: 4222160580949909835
+    second: Seedot final_15
+  - first:
+      213: -7337917355425295296
+    second: Seedot final_16
+  - first:
+      213: -6684378182752253620
+    second: Seedot final_17
+  - first:
+      213: -4363534906776209483
+    second: Seedot final_18
+  - first:
+      213: -8592528205263762947
+    second: Seedot final_19
+  - first:
+      213: -637499832723155524
+    second: Seedot final_20
+  - first:
+      213: 6345175006021968016
+    second: Seedot final_21
+  - first:
+      213: -5364581367904082607
+    second: Seedot final_22
+  - first:
+      213: 5985104953573691085
+    second: Seedot final_23
+  - first:
+      213: 3905104572095952223
+    second: Seedot final_24
+  - first:
+      213: 1050906182253726159
+    second: Seedot final_25
+  - first:
+      213: -3319942814571995946
+    second: Seedot final_26
+  - first:
+      213: -1975030726504082392
+    second: Seedot final_27
+  - first:
+      213: -8841379435346843291
+    second: Seedot final_28
+  - first:
+      213: 7732821778018820225
+    second: Seedot final_29
+  - first:
+      213: -254789988974499089
+    second: Seedot final_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Seedot final_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 302
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8e3ed9357bd7b70800000000000000
+      internalID: 8898470008513095925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 302
+        width: 22
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb02bf01e18fb5a20800000000000000
+      internalID: 3052305980491243707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 258
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373e177d381d51cb0800000000000000
+      internalID: -4893775055882689677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 258
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269bbbff4659e0420800000000000000
+      internalID: 2598178296059115874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 259
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b412e509914df8e0800000000000000
+      internalID: -1658096962317970253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 258
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92220df4954c14c0800000000000000
+      internalID: -4315497836725525858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_6
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 257
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa9909baa3ba0d60800000000000000
+      internalID: 7857290045731478256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 257
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe90a51a24d96f80800000000000000
+      internalID: -8112719976514674945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 215
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5c8d0ec84a07b10800000000000000
+      internalID: 1977261161390327217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 214
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51503c2046852630800000000000000
+      internalID: 3901672262363795804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 215
+        width: 25
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc427c4e6d5542d0800000000000000
+      internalID: -3295124824041304872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 217
+        width: 28
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd706c01927773890800000000000000
+      internalID: -7478377637966641185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_12
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 216
+        width: 31
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c610e9df87657e710800000000000000
+      internalID: 1722440460143559020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 215
+        width: 30
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b382512229dcb50800000000000000
+      internalID: 6615104102758628151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_14
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 216
+        width: 31
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c334b498f6aba5f60800000000000000
+      internalID: 8023930674321507132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_15
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 215
+        width: 30
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b412d2cada0289a30800000000000000
+      internalID: 4222160580949909835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 218
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04493be0b0b7a2a90800000000000000
+      internalID: -7337917355425295296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_17
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 216
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c494ea845715c33a0800000000000000
+      internalID: -6684378182752253620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_18
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 155
+        width: 58
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7369c0f1c9173c0800000000000000
+      internalID: -4363534906776209483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_19
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 156
+        width: 49
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df98aba5f1531c880800000000000000
+      internalID: -8592528205263762947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_20
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 155
+        width: 59
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb55a2e97452727f0800000000000000
+      internalID: -637499832723155524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_21
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 156
+        width: 56
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09060afbc079e0850800000000000000
+      internalID: 6345175006021968016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_22
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 191
+        width: 19
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155e56d2bad2d85b0800000000000000
+      internalID: -5364581367904082607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_23
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 155
+        width: 49
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcec03dae3d5f0350800000000000000
+      internalID: 5985104953573691085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_24
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 191
+        width: 13
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55788e0be7b13630800000000000000
+      internalID: 3905104572095952223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_25
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 164
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9ce75da91959e00800000000000000
+      internalID: 1050906182253726159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_26
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 164
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc53d699913de1d0800000000000000
+      internalID: -3319942814571995946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_27
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 100
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8241e36b4084794e0800000000000000
+      internalID: -1975030726504082392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_28
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 98
+        width: 33
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56925b74f3c1d4580800000000000000
+      internalID: -8841379435346843291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_29
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 99
+        width: 33
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1806736df60805b60800000000000000
+      internalID: 7732821778018820225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seedot final_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 17
+        width: 30
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea69dedaddc67cf0800000000000000
+      internalID: -254789988974499089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 686448e462b228547803813a3c24a8ef
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Seedot final_0: 8898470008513095925
+      Seedot final_1: 3052305980491243707
+      Seedot final_10: -3295124824041304872
+      Seedot final_11: -7478377637966641185
+      Seedot final_12: 1722440460143559020
+      Seedot final_13: 6615104102758628151
+      Seedot final_14: 8023930674321507132
+      Seedot final_15: 4222160580949909835
+      Seedot final_16: -7337917355425295296
+      Seedot final_17: -6684378182752253620
+      Seedot final_18: -4363534906776209483
+      Seedot final_19: -8592528205263762947
+      Seedot final_2: -4893775055882689677
+      Seedot final_20: -637499832723155524
+      Seedot final_21: 6345175006021968016
+      Seedot final_22: -5364581367904082607
+      Seedot final_23: 5985104953573691085
+      Seedot final_24: 3905104572095952223
+      Seedot final_25: 1050906182253726159
+      Seedot final_26: -3319942814571995946
+      Seedot final_27: -1975030726504082392
+      Seedot final_28: -8841379435346843291
+      Seedot final_29: 7732821778018820225
+      Seedot final_3: 2598178296059115874
+      Seedot final_30: -254789988974499089
+      Seedot final_4: -1658096962317970253
+      Seedot final_5: -4315497836725525858
+      Seedot final_6: 7857290045731478256
+      Seedot final_7: -8112719976514674945
+      Seedot final_8: 1977261161390327217
+      Seedot final_9: 3901672262363795804
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
