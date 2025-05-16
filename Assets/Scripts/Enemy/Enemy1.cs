@@ -45,7 +45,6 @@ public class Enemy1 : MonoBehaviour
             }
 
             // move towards the player
-            moveSpeed = 1.0f;
 
             direction = (PlayerController.Instance.transform.position - transform.position).normalized;
 
